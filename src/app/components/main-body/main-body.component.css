@@ -1,0 +1,9 @@
+.card {
+    margin: 50px 20px;
+    padding: 20px;
+    background-color: rgb(3, 16, 26);
+}
+
+.card > img {
+    border-radius: 5px; 
+}

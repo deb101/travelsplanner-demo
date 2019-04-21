@@ -1,0 +1,7 @@
+.navbar {
+    opacity: 0.8;
+    height: 45px;
+}
+.navbar:hover {
+    opacity: 1.0;
+}
