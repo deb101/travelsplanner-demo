@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { SidebarModule } from 'ng-sidebar';
 
 import { AppComponent } from './app.component';
 import { MainBodyComponent } from './components/main-body/main-body.component';
@@ -34,6 +35,7 @@ import { MatToolbarModule, MatButtonModule, MatIconModule, MatListModule } from 
   imports: [
     BrowserModule,
     CarouselModule.forRoot(),
+    SidebarModule.forRoot(),
     AppRoutingModule,
     MatSidenavModule,
     BrowserAnimationsModule,

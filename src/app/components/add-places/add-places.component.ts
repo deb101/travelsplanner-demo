@@ -19,11 +19,11 @@ export class AddPlacesComponent implements OnInit {
       this.model = new Place( 1, 'Bangalore', 'Karnataka', 'tfth', 'adas', 'India');
     
     this.placeForm = this.formBuilder.group({
-        name: [this.model.name, Validators.required],
-        state: [this.model.state, Validators.required],
+        name: [this.model.name],
+        state: [this.model.state],
         description: [this.model.description],
-        imgPath: [this.model.imgPath, Validators.required],
-        country: [this.model.country, Validators.required]
+        imgPath: [this.model.imgPath],
+        country: [this.model.country]
     });
   }
   onSubmit({ value, valid }: { value: Place, valid: boolean }) {
